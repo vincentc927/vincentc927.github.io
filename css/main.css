@@ -1,45 +1,325 @@
+/* About Page */
+
 body {
-    margin: 60px auto;
-    width: 70%;
+  background-color: black;
+
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
+
+.hero {
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.hero img {
+    width: 100%;
+
+
+}
+
+
+
+.header {
+  font-size: 3vw;
+  background-color: black;
+  font-family: "Raleway";
+  text-align: center;
+  color: white;
+  margin-bottom: ;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  background-image: url("genos.jpg");
+  xheight: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+
+.header h1 {
+  border: 2px solid red;
+  width: 70%;
+  margin: auto;
+  background: black;
+  opacity: .8;
+  position: relative;
+  top: 150px;
+  color: hotpink;
+}
+
+.header p {
+  font-family: "Raleway";
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  font-family: "Raleway";
+  padding: 0px 5%;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #f64545;
+    margin-top: 0px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Raleway";
+    color: white;
     font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #001B8A;
+    color: white;
 }
-a {
-    text-decoration: none;
-    color: blue;
+
+.title {
+  font-family: "Futura";
+  margin: auto;
+  text-align: center;
+  color: hotpink;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 4vw;
+  margin-top: 50px;
 }
-a:hover {
-    text-decorationHelvetica: underline;
+
+.container {
+  position:
+  top:
+
 }
-h1 {
-    font-size: 5em;
-    font-family:'', 'Arial', 'Sans-Serif';
+
+.contain {
+  position: relative;
+  top: 50px;
+
+}
+
+.things {
+  font-family: Futura;
+  color: rgb(217, 46, 43);
+  border: 1px dotted hotpink;
+  border-width: 4px;
+  border-radius: 20px;
+  font-size: 35px;
+  padding: ;
+  text-align: center;
+
+}
+
+.covered {
+  font-family: Futura;
+  color: white;
+  font-size: 20px;
+
+  background-color: black;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 200px;
+
+}
+
+
+
+h4 {
     color: red;
-    
+    background-color: ;
+    position: relative;
+    left: ;
+    font-family: Raleway;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    xborder: 1px solid red;
 }
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+
+.nav {
+  text-align: center;
+  display: block;
 }
+
+.link {
+  display: inline-block;
+  margin: 0 0px;
+  padding: 0px;
+}
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+  background-color: black;
+  height: 200px;
+  position: relative;
+  top: 80px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.enfooter {
+  position: relative;
+  top: ;
+  left: ;
+  font-size: 3vw;
+  font-family: "Raleway";
+  color: white;
+  border: 2px solid red;
+  width: 60%;
+  text-align: center;
+  margin: auto;
+
 }
 
-ul.posts li {
-    list-style: none;
+.phlfoot p {
+  color: white;
+  text-align: center;
+  font-family: "Raleway";
+}
+
+
+@media only screen and (max-width: 750px) {
+
+.hero {
+  display: none;
+
+}
+
+.xheader {
+    width: 100%;
+    height: 400px;
+    background-image: url("Phillynight.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+  }
+
+.title {
+    font-size: 7vw;
+    color: hotpink;
+}
+
+.header h1 {
+    font-size: 10vw;
+    width: 70%;
+    xbackground-color: black;
+    background-color: black;
+    position: relative;
+    top: 70px;
+    color: hotpink;
+    opacity: .8;
+    border: 2px solid #FF8933;
+
+
+  }
+
+.covered {
+
+      position: relative;
+
+      background: black;
+      top: 100px;
+
+    }
+
+.topnav {
+      xvisibility: hidden;
+      overflow: hidden;
+      background-color: #f64545;
+      xbackground-image: url("phdark.jpg");
+      background-size: cover;
+      background-position: center;
+
+      display: grid;
+      grid-template-columns: auto;
+      height:
+      ; z-index: -1;
+
+  }
+
+.xtopnav a {
+
+}
+
+  /* Style the topnav links */
+.topnav a {
+      display: hidden;
+
+
+  }
+
+.container {
+    xmargin-top: -120px;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    width: 100%;
+    grid-template-columns: auto;
+  }
+
+.xenfooter {
+    position: relative;
+    top: ;
+    left: ;
+    font-size: 5vw;
+    font-family: "Raleway";
+    color: white;
+    border: 2px solid red;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+@media only screen and (max-width: 490px) {
+
+  .header h1 {
+
+      width: 70%;
+
+
+    }
+
+footer {
+  height: 520px;
+  background-color: black;
+  grid-template-columns: auto;
+
+}
+  .enfooter {
+    position: relative;
+    top: ;
+    left: ;
+    font-size: 8vw;
+    font-family: "Raleway";
+    color: white;
+    border: 2px solid red;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+
+  }
+
 }
