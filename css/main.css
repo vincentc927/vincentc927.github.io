@@ -17,11 +17,12 @@ a {
     color: blue;
 }
 a:hover {
-    text-decoration: underline;
+    text-decorationHelvetica: underline;
 }
 h1 {
-    font-size: 10em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 5em;
+    font-family:'', 'Arial', 'Sans-Serif';
+    color: hotpink;
 }
 p {
     font-size: 1.5em;
